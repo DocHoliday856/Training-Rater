@@ -8,6 +8,8 @@ import { SessionsService } from './sessions-list/sessions.service';
 })
 export class AppComponent implements OnInit {
 
+  isNavbarCollapsed = false;
+
   title = 'TrainingApp';
   myFirstVariable = 'Hello World';
   count = 0;
